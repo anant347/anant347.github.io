@@ -2439,7 +2439,7 @@ input, select, textarea {
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			color: #723232;
 			content: '\f00c';
 		}
 
@@ -2535,7 +2535,7 @@ input, select, textarea {
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #b74e91;
 				}
 
 /* Image */
@@ -3284,12 +3284,11 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper.fullscreen {
-					padding: 2em 0;
-					min-height: 0;
+					min-height: calc(100vh - 2.5em);
 				}
 
 					body.is-ie .wrapper.fullscreen {
-						height: auto;
+						height: calc(100vh - 2.5em);
 					}
 
 			}
@@ -3353,7 +3352,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #000000;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3844,7 +3843,7 @@ input, select, textarea {
 						}
 
 		}
-
+		
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
@@ -3852,6 +3851,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 /* Intro */
 

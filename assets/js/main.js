@@ -132,7 +132,7 @@
 	// Spotlights.
 		$('.spotlights > section')
 			.scrollex({
-				mode: 'middle',
+				mode: 'left',
 				top: '-10vh',
 				bottom: '-10vh',
 				initialize: function() {
