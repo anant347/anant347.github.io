@@ -117,7 +117,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.55);
 		font-family: Arial, Helvetica, sans-serif;
-		font-size: 16.5pt;
+		font-size: 16pt;
 		font-weight: normal;
 		line-height: 1.75;
 	}
@@ -125,7 +125,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -133,7 +133,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -215,15 +215,15 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.25em;
 	}
 
 	h3 {
-		font-size: 1.1em;
+		font-size: 0.85em;
 	}
 
 	h4 {
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 
 	h5 {
@@ -3192,15 +3192,15 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 5em 5em 3em 0em ;
 			max-width: 100%;
-			width: 75em;
+			width: 100em;
 		}
 
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					padding: 4em 4em 2em 4em ;
+					padding: 2em 4em 2em 0em ;
 				}
 
 			}
@@ -3216,7 +3216,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
-					padding: 3em 2em 1em 2em ;
+					padding: 3em 2em 1em 0em ;
 				}
 
 			}
