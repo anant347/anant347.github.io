@@ -464,10 +464,12 @@ div.articleRightInner {
 	background: #141414;
 	color: white;
 	line-height: 1.6;
-	font-size: 0.875em;
+	font-size: 1em;
 	border-top: 1px solid #141414;
 	border-bottom: 1px solid #141414;
 	padding: 20px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 .article p {
 	line-height: inherit;
@@ -631,6 +633,8 @@ span.user {
 			border-top: 1px solid #141414;
 			border-bottom: 1px solid #141414;
 			padding: 1px;
+			text-align: justify;
+  			text-justify: inter-word;
 		}
 	
 	
