@@ -346,7 +346,7 @@ div.articleRight {
 	border: 0px solid #c8ccd1;
 	padding: 3px;
 	float: right;
-	background-color:black;
+	background-color:#141414;
 	font-size: 94%;
 	text-align: center;
 	overflow: hidden;
@@ -460,13 +460,13 @@ div.articleRightInner {
 }
 .article {
 	padding: 1.25em 1.5em 1.5em 1.5em;
-	border-left: 1px solid black;
-	background: black;
+	border-left: 1px solid #141414;
+	background: #141414;
 	color: white;
 	line-height: 1.6;
 	font-size: 0.875em;
-	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-top: 1px solid #141414;
+	border-bottom: 1px solid #141414;
 	padding: 20px;
 }
 .article p {
@@ -501,7 +501,7 @@ span.user {
 }
 .contentsPanel {
 	border: 1px solid #a2a9b1;
-	background-color: black;
+	background-color: #141414;
 	padding: 2px;
 	font-size: 95%;
 	position: relative;
