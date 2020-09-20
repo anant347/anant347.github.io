@@ -8,10 +8,17 @@ html {
 	-webkit-text-size-adjust: 100%;
 }
 
-
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display: block;
 }
+
+#rcorners1 {
+	border-radius: 25px;
+	border: 2px solid white;
+	padding: 20px;
+	width: 95%;
+}
+
 audio,canvas,progress,video {
 	display: inline-block;
 	vertical-align: baseline;
@@ -615,27 +622,40 @@ span.user {
 	div.articleRight {
 	  display: none;
 		}
-	
+
 		img {
 			border: 0;
 			max-width: 100%;
 			border-radius: 3%;
-			width: 100%;
+			width: 90%;
 		}
-	
+
 		.article {
 			padding: 1.25em 1.5em 1.5em 1.5em;
-			border-left: 1px solid #141414;
+			border-left: 0px solid #141414;
 			background: #141414;
 			color: white;
 			line-height: 2;
 			font-size: 0.7em;
 			border-top: 1px solid #141414;
 			border-bottom: 1px solid #141414;
-			padding: 1px;
+			padding: 0px;
 			text-align: justify;
   			text-justify: inter-word;
 		}
+
+
+	#rcorners1 {
+		border-radius: 25px;
+		border: 1px solid white;
+		padding: 5px;
+		width: 95%;
+	}
 	
-	
+	.article p {
+		line-height: inherit;
+		margin: 0.5em 0;
+		margin-left: 0px;
+	}
+
   }
